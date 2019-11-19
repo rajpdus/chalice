@@ -20,13 +20,13 @@ install_requires = [
 ]
 
 setup(
-    name='chalice',
-    version='1.12.0',
+    name='mod-chalice',
+    version='1.0',
     description="Microframework",
     long_description=README,
-    author="James Saryerwinnie",
-    author_email='js@jamesls.com',
-    url='https://github.com/aws/chalice',
+    author="Dushyant Rajput",
+    author_email='rajpdus@gmail.com',
+    url='https://github.com/rapdus/chalice',
     packages=find_packages(exclude=['tests']),
     install_requires=install_requires,
     extras_require={
